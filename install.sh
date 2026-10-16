@@ -36,7 +36,7 @@ done
 
 echo
 echo "Готово. Дальше:"
-echo "  1. В приложении Claude (вкладка Code) создайте 10 сессий в папке $DST:"
-echo "     General Manager, Manager, Senior Developer, Middle Developer, Architect,"
-echo "     Auditor, Head of Security, DevOps, Analyst, Releaser."
-echo "  2. Вставьте текст из prompts/bootstrap-general-manager.md в сессию General Manager."
+echo "  1. В приложении Claude (вкладка Code) откройте новую сессию в папке $DST,"
+echo "     модель Opus, усилие high."
+echo "  2. Отправьте в неё текст из prompts/bootstrap-general-manager.md —"
+echo "     она станет General Manager и сама создаст сессии остальных ролей."
